@@ -29,7 +29,7 @@ var WalletShellSession = function (opts) {
         txNew: [],
         nodeFee: 0,
         nodeChoices: settings.get('pubnodes_data', []),
-        servicePath: settings.get('service_bin', 'traaitt-service'),
+        servicePath: settings.get('service_bin', 'turtle-service'),
         configUpdated: false,
         uiStateChanged: false,
         defaultTitle: DEFAULT_TITLE,

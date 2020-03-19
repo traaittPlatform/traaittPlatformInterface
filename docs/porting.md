@@ -1,8 +1,8 @@
 ## Porting WalletShell for Another Currency
 
-> Note that this is only valid/possible for `traaitt-service` compatible currency (e.g. a TurtleCoin fork).
+> Note that this is only valid/possible for `turtle-service` compatible currency (e.g. a TurtleCoin fork).
 
-You can modify WalletShell to be used for your own `traaitt-service` compatible currency with few simple steps (assuming you already grab the source code by cloning our repo):
+You can modify WalletShell to be used for your own `turtle-service` compatible currency with few simple steps (assuming you already grab the source code by cloning our repo):
 
 ### 1. Update package.json
 This step is important in order to avoid conflict with the original WalletShell (or other fork), when user happen to install both wallet version.
