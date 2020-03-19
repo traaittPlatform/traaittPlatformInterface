@@ -1,6 +1,6 @@
 {
   "name": "traaittplatformwalletshell",
-  "productName": "traaittCASH Interface Wallet",
+  "productName": "traaittPlatform Interface Wallet",
   "description": "traaittPlatform GUI Wallet",
   "version": "4.4.7",
   "homepage": "https://github.com/turtlecoin/turtle-wallet-electron",
@@ -15,7 +15,7 @@
     "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/traaittcash-service"
   },
   "keywords": [],
-  "author": "traaittCASH, Rixombea, Macroshock, TurtleCoin Developers",
+  "author": "traaittPlatform Team, Rixombea, Macroshock, TurtleCoin Developers",
   "license": "ISC",
   "devDependencies": {
     "devtron": "^1.4.0",
@@ -37,7 +37,7 @@
     "request-promise-native": "^1.0.7"
   },
   "build": {
-    "appId": "traaittcash.walletshell",
+    "appId": "traaittplatform.walletshell",
     "copyright": "Copyright (c) 2020 traaittCASH, Rixombea, Macroshock, TurtleCoin Developers",
     "directories": {
       "output": "dist",
@@ -68,14 +68,14 @@
       "target": [
         "AppImage"
       ],
-      "maintainer": "traaittCASH Team",
+      "maintainer": "traaittPlatform Team",
       "category": "Office",
-      "vendor": "traaittCASH",
-      "synopsis": "traaittCASH GUI Wallet"
+      "vendor": "traaittPLatform",
+      "synopsis": "traaittPlatform GUI Wallet"
     },
     "win": {
       "target": "nsis",
-      "publisherName": "traaittCASH"
+      "publisherName": "traaittPlatform Team"
     },
     "nsis": {
       "artifactName": "${productName}-v${version}-${os}-${arch}-setup.${ext}",
